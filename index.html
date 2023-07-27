@@ -1,0 +1,50 @@
+<!-- basado backface-visibility https://css-tricks.com/almanac/properties/b/backface-visibility/ -->
+<html>
+<head>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="jv.js"></script>
+</head>
+<body>
+    <div id="perspectiva" style="transform: translateY(0px); transition: all 1s ease 0s;">
+        <div id="contenedor" style="transition: all 1s ease 0.5s; transform: rotateY(0deg);">
+            <div class="cara frontal">
+                <img src="https://drive.google.com/uc?export=view&amp;id=10WGCEGIAGVHYQzHmYr7J_bFvSaEUv3tL" alt="" style="width: 30%;margin-left: 137px;margin-top: 30px;">
+                <h1>Boda Pierre &amp; Yohhanis<br>
+                <span>Desliza ↓</span></h1>
+            </div>
+            <div class="cara trasera">
+                <div id="abrir" style="transition: all 1s ease 0s; transform: rotateX(0deg); z-index: 10;"></div>
+                <div id="partes"></div>
+                <div id="carta" style="transition: all 0.5s ease 0s; top: 3px; height: 200px;">
+                    <hgroup>
+                        <h1>Desliza</h1>
+                        <h2 style="transform: rotateZ(0deg); transition: all 1s ease 0s;">↓</h2>
+                    </hgroup>
+                    <p>
+                        Que emoción es unir nuestras vidas <strong>en la presencia de Dios y en el amor que Él nos ha dado.</strong> Queridos amigos y familiares, con alegría les extendemos esta pre-invitación para nuestra boda.
+                        <br/><br/>
+                        <strong>18 de noviembre</strong>, un día que será grabado en nuestros corazones para siempre, <strong>celebraremos la unión sagrada de Pierre Abboud y Yohannis Godoy.</strong> Será una ocasión especial llena de amor y queremos vivirla contigo.
+                        <br/><br/>
+                        Nuestra relación se ha fortalecido Dios, y es por ello que deseamos que Él sea el centro de nuestro matrimonio. Queremos que este día esté lleno de Su Luz, que nos guíe y nos enseñe a amar cada día más, tal como lo ha hecho hasta ahora. La celebración estará llena de alegría y diversión, porque nuestro Dios es un Dios gozoso. Queremos reír, cantar y celebrar juntos el amor que Dios ha tejido entre nosotros.
+                        <br/><br/>
+                        Por favor, <strong>confirma tu asistencia</strong> para que podamos planificar cada detalle con cariño y precisión. Tu presencia es invaluable y tu apoyo es un regalo que apreciamos de todo corazón.
+                        <br/><br/>
+                        Por ahora, esta es solo una pequeña muestra de lo que vendrá. Muy pronto recibirás la invitación oficial con todos los detalles y sorpresas que hemos preparado con amor y entusiasmo.
+                        <br/><br/>
+                        ¡Que Dios te bendiga hoy, mañana y siempre!
+                        <br/><br/>
+                        Con amor, Pierre Abboud y Yohannis Godoy ❤️.
+                        <br/>
+                        "Tengan todos en alta estima el matrimonio y la fidelidad conyugal,..." <br/>- Hebreos 13:4a
+                        <br/>
+                        <a class="confirmation-link" href="https://wa.me/+584145918064?text=%C2%A1Hola!%20%C2%A1Confirmo%20mi%20asistencia!" target="_blank">¡Confirmación!</a>
+                    </p>
+                </div>
+            </div>
+        </div><!-- fin contenedor -->
+    </div>
+    <div id="wrapper"></div>
+</body>
+</html>
